@@ -1,0 +1,23 @@
+name: Ошибка установки или новая версия Nimbalyst
+description: Сообщить о несовместимости, сбое или проблеме с русификатором
+title: "[Ошибка] "
+body:
+  - type: input
+    id: versions
+    attributes:
+      label: Версии Nimbalyst, русификатора и Windows
+      placeholder: Nimbalyst 0.83.0 / RU 1.1.0 / Windows 11 x64
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Что произошло и как повторить
+      description: Опишите ожидаемый результат. Скриншот приветствуется; скройте личные данные.
+    validations:
+      required: true
+  - type: textarea
+    id: report
+    attributes:
+      label: Диагностика
+      description: Нажмите «Диагностика» → «Открыть отчёты» и приложите diagnostics-*.json и compatibility-*.json, если они созданы. Перед публикацией просмотрите содержимое. Не прикладывайте API-ключи, документы и переписки. last-operation.log может содержать локальные пути.

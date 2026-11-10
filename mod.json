@@ -1,0 +1,9 @@
+{
+  "id": "nimbalyst-ru",
+  "version": "1.1.0",
+  "testedAppVersions": ["0.83.0"],
+  "minimumTranslatedOccurrences": 1000,
+  "minimumKnownFraction": 0.65,
+  "locale": "ru-RU",
+  "description": "Reinstallable Russian UI patch for Nimbalyst on Windows"
+}

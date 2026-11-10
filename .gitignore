@@ -1,0 +1,9 @@
+/reports/
+/state/
+/work/
+/build/
+/dist/
+/runtime/
+*.exe
+*.zip
+*.log

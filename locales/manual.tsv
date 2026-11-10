@@ -1,0 +1,966 @@
+Cancel	Отмена
+Close	Закрыть
+Loading	Загрузка
+Untitled	Без названия
+Dismiss	Скрыть
+Delete	Удалить
+Retry	Повторить
+Open	Открыть
+Untitled Session	Сеанс без названия
+Done	Готово
+Rename	Переименовать
+All	Все
+Type	Тип
+Refresh	Обновить
+Organization	Организация
+Open {0}	Открыть {0}
+No	Нет
+Running	Выполняется
+Yes	Да
+New Session	Новый сеанс
+New	Создать
+Edit	Изменить
+Unread response	Непрочитанный ответ
+Closed	Закрыто
+Save	Сохранить
+You	Вы
+Waiting for your response	Ожидается ваш ответ
+Clear search	Очистить поиск
+Agent	Агент
+Installed	Установлено
+Copy	Копировать
+Add	Добавить
+Session	Сеанс
+Archive	Архивировать
+Blocked	Заблокировано
+Priority	Приоритет
+Archived	В архиве
+Owner	Владелец
+Created	Создано
+Updated	Обновлено
+Uninstall	Удалить
+Connected	Подключено
+Failed	Ошибка
+Other	Другое
+Name	Название
+Status	Статус
+Table	Таблица
+Loading models...	Загрузка моделей…
+Saving	Сохранение
+Testing	Проверка
+Medium	Средний
+High	Высокий
+New conversation	Новый разговор
+Unknown	Неизвестно
+Select All	Выделить всё
+Open file	Открыть файл
+Move to...	Переместить в…
+Sending…	Отправка…
+Confirm	Подтвердить
+Tags	Теги
+Trackers	Трекеры
+Continue	Продолжить
+Folder name	Название папки
+Remove	Удалить
+Clear	Очистить
+Title	Заголовок
+Test	Проверить
+Apply	Применить
+Low	Низкий
+Create	Создать
+Unread	Непрочитанное
+Error	Ошибка
+Not now	Не сейчас
+Source	Источник
+Copy link	Копировать ссылку
+Show	Показать
+Clear filters	Сбросить фильтры
+Inbox	Входящие
+Open Project	Открыть проект
+Sessions	Сеансы
+Favorite	В избранное
+Processing	Обработка
+Collapse	Свернуть
+Remove {0}	Удалить {0}
+Feedback	Обратная связь
+Unpin	Открепить
+Pin	Закрепить
+Insert	Вставить
+Off	Выкл.
+Always	Всегда
+Undo	Отменить действие
+View	Вид
+Terminal	Терминал
+Text	Текст
+Open link	Открыть ссылку
+Check again	Проверить снова
+New page	Новая страница
+Place type...	Разместить тип…
+None	Нет
+Accept	Принять
+Preview	Предпросмотр
+Draft	Черновик
+Copy Link	Копировать ссылку
+Timeline	Шкала времени
+Complete	Завершить
+Plan	План
+No matches	Совпадений нет
+Settings	Настройки
+Copied	Скопировано
+Creating	Создание
+Revoke	Отозвать
+New Folder	Новая папка
+Back	Назад
+Tables	Таблицы
+Next	Далее
+Cancelled	Отменено
+Try again	Повторить попытку
+Copy failed	Не удалось скопировать
+Feedback request	Запрос обратной связи
+Hide	Скрыть
+Show all	Показать всё
+Installing	Установка
+No description	Без описания
+Reset size	Сбросить размер
+Close (Escape)	Закрыть (Escape)
+Max	Максимум
+Tasks	Задачи
+New session	Новый сеанс
+Quit	Выход
+File	Файл
+Copy as Markdown	Копировать как Markdown
+Files Mode	Режим файлов
+Agent Mode	Режим агента
+Select	Выбрать
+Untitled session	Сеанс без названия
+Disconnected	Отключено
+Weekly	За неделю
+Overview	Обзор
+Center	По центру
+Outcome	Результат
+Open document	Открыть документ
+Page history	История страницы
+Restore	Восстановить
+Decision	Решение
+{0} of {1}	{0} из {1}
+Loading tracker items...	Загрузка элементов трекера…
+Backlog	Запланировано
+Planning	Планирование
+Implementing	Реализация
+Validating	Проверка
+Clear filter	Сбросить фильтр
+Recent	Недавние
+Files	Файлы
+Projects	Проекты
+Wiki	Вики
+Strikethrough	Зачёркнутый
+Heading 1	Заголовок 1
+Heading 2	Заголовок 2
+Heading 3	Заголовок 3
+Numbered List	Нумерованный список
+Check List	Список задач
+Code Block	Блок кода
+Quote	Цитата
+Don't Show Again	Больше не показывать
+Deselect All	Снять выделение
+Expand	Развернуть
+New organization	Новая организация
+Join	Присоединиться
+Document History	История документа
+Voice Mode	Голосовой режим
+Agent Permissions	Разрешения агента
+Send Feedback	Отправить отзыв
+Loading organization…	Загрузка организации…
+Project	Проект
+Ready	Готово
+Connecting	Подключение
+Loading preview...	Загрузка предпросмотра…
+Page	Страница
+Copied!	Скопировано!
+Commits	Коммиты
+Unarchive	Вернуть из архива
+Workstream	Поток работы
+New Terminal	Новый терминал
+Agent Sessions	Сеансы агентов
+Try Again	Повторить попытку
+Unfavorite	Убрать из избранного
+Delete item?	Удалить элемент?
+Add field	Добавить поле
+Expand all	Развернуть всё
+Collapse all	Свернуть всё
+Resolve with Agent	Решить с помощью агента
+Checking	Проверка
+Last activity	Последняя активность
+Delete items?	Удалить элементы?
+Copy command	Копировать команду
+Description	Описание
+Conversation	Разговор
+Loading conversation…	Загрузка разговора…
+Details	Подробности
+✓ Connected	✓ Подключено
+✗ Failed	✗ Ошибка
+Authentication	Аутентификация
+API Key	Ключ API
+Install	Установить
+Install Instructions	Инструкция по установке
+Labels	Метки
+View settings	Настройки представления
+Show all uncommitted files (	Все файлы без коммита (
+Required	Обязательно
+Welcome to Nimbalyst	Добро пожаловать в Nimbalyst
+Bugs	Ошибки
+Ideas	Идеи
+Goal	Цель
+Cut	Вырезать
+Paste	Вставить
+About Nimbalyst	О программе Nimbalyst
+Messages	Сообщения
+New file	Новый файл
+Open Nimbalyst	Открыть Nimbalyst
+Create Project	Создать проект
+New File...	Новый файл…
+Recent Projects	Недавние проекты
+Close Tab	Закрыть вкладку
+Reopen Closed Tab	Открыть закрытую вкладку
+Redo	Повторить действие
+Navigate Back	Перейти назад
+Navigate Forward	Перейти вперёд
+Keyboard Shortcuts	Сочетания клавиш
+Join Discord	Присоединиться к Discord
+Home	Главная
+Analysis	Анализ
+Export	Экспорт
+Question	Вопрос
+Model	Модель
+Start session	Начать сеанс
+Frame	Фрейм
+Image	Изображение
+Zoom out	Уменьшить масштаб
+Zoom in	Увеличить масштаб
+Comment	Комментарий
+Prompt	Запрос
+Commit	Создать коммит
+Move to Trash	В корзину
+Move	Переместить
+Restoring	Восстановление
+{0} of {1} {2}	{0} из {1} {2}
+Review	Проверка
+Current	Текущий
+Sessions ({0})	Сеансы ({0})
+Open session: {0}	Открыть сеанс: {0}
+Launch Session	Запустить сеанс
+Launch Worktree	Открыть рабочее дерево
+Icon	Значок
+To Do	К выполнению
+In Progress	В работе
+In Review	На проверке
+Decisions	Решения
+Database	База данных
+Critical	Критический
+Item actions	Действия с элементом
+Shared	Общее
+Searching	Поиск
+Worktree	Рабочее дерево
+Bold	Полужирный
+Italic	Курсив
+Underline	Подчёркнутый
+Bullet List	Маркированный список
+Lowercase	Строчные буквы
+Uppercase	Прописные буквы
+Capitalize	С заглавной буквы
+Subscript	Нижний индекс
+Superscript	Верхний индекс
+Extensions	Расширения
+Remind Me Later	Напомнить позже
+Share link	Поделиться ссылкой
+Select {0}	Выбрать {0}
+Models	Модели
+Search	Поиск
+Share Folder to Team	Открыть папку команде
+Signed in as	Выполнен вход:
+Joining…	Присоединение…
+Create organization	Создать организацию
+Members	Участники
+Tracker	Трекер
+Viewer	Читатель
+Role	Роль
+Choose an organization.	Выберите организацию.
+Rooms	Комнаты
+Browse rooms	Обзор комнат
+Room actions	Действия с комнатой
+Table of Contents	Оглавление
+Tracker Automation	Автоматизация трекера
+Opening…	Открытие…
+Save changes	Сохранить изменения
+Add comment	Добавить комментарий
+Open details	Открыть подробности
+Offline	Нет подключения
+Next tip	Следующий совет
+Previous change	Предыдущее изменение
+Next change	Следующее изменение
+From	От
+Duration	Длительность
+Worktree: {0}	Рабочее дерево: {0}
+Remove from board	Убрать с доски
+New Super Loop	Новый суперцикл
+Archive Worktree	Архивировать рабочее дерево
+Pending	В ожидании
+Pause	Приостановить
+Search sessions	Поиск сеансов
+Unsaved changes	Несохранённые изменения
+Overwrite	Перезаписать
+More actions	Другие действия
+Mark all as read	Отметить всё прочитанным
+No team is connected to this workspace	К этому рабочему пространству не подключена команда
+Types	Типы
+Archive page	Архивировать страницу
+Fields	Поля
+No comments yet.	Комментариев пока нет.
+Created by	Автор
+Key	Ключ
+Number	Число
+Group by directory	Группировать по папкам
+Keep All	Сохранить всё
+Conflicted Files:	Файлы с конфликтами:
+Worktree location:	Расположение рабочего дерева:
+Source:	Источник:
+Progress	Ход выполнения
+Manual	Вручную
+Committing...	Создание коммита…
+Binary file — no text diff available.	Двоичный файл — текстовое сравнение недоступно.
+Items	Элементы
+Restart Nimbalyst	Перезапустить Nimbalyst
+{0}% of window elapsed	Прошло {0}% периода
+Claude Usage	Использование Claude
+Refresh usage	Обновить статистику
+7-day window	Период 7 дней
+Disable	Отключить
+Codex Usage	Использование Codex
+Gemini Usage	Использование Gemini
+Account	Аккаунт
+Import from	Импортировать из
+{0} unread	Непрочитанных: {0}
+New room	Новая комната
+Preferences	Предпочтения
+Archive room	Архивировать комнату
+Close project	Закрыть проект
+Privileged Capabilities	Особые полномочия
+MCP Servers	Серверы MCP
+API Configuration	Настройки API
+Available Models	Доступные модели
+See the	См.
+Show in Finder	Показать в Finder
+Migrate to SQLite	Перенести в SQLite
+Error:	Ошибка:
+Not authorized	Нет авторизации
+Test server connection	Проверить подключение к серверу
+Saved	Сохранено
+Manage	Управление
+Updating	Обновление
+Update to v{0}	Обновить до версии {0}
+Later	Позже
+Kind	Вид
+Insert code block	Вставить блок кода
+Insert link	Вставить ссылку
+Due Date	Срок
+Waiting	Ожидание
+Input requested	Ожидается ввод
+Session Meta	Данные сеанса
+Query:	Запрос:
+Optional	Необязательно
+Rename `{0}` → `{1}` (keeps values)	Переименовать `{0}` → `{1}` (значения сохранятся)
+Retire {0}	Вывести из использования: {0}
+Apply the change	Применить изменение
+Change {0} for {1}?	Изменить {0} для {1}?
+Change {0}?	Изменить {0}?
+Apply change	Применить изменение
+Sandbox session	Сеанс в песочнице
+New shared doc	Новый общий документ
+New item	Новый элемент
+AI Usage Report	Отчёт об использовании ИИ
+Database Browser	Просмотр базы данных
+Developer Dashboard	Панель разработчика
+Unknown error	Неизвестная ошибка
+Create New Extension Project	Создать проект расширения
+Folder Not Empty	Папка не пуста
+New Browser Tab	Новая вкладка браузера
+New Extension Project...	Новый проект расширения…
+Attach Folder to Workspace...	Подключить папку к рабочему пространству…
+Settings...	Настройки…
+Close Project	Закрыть проект
+Find...	Найти…
+Find Next	Найти следующее
+Find Previous	Найти предыдущее
+View Folder History...	История папки…
+Approve Current Action	Одобрить текущее действие
+Reject Current Action	Отклонить текущее действие
+Toggle AI Chat Panel	Показать или скрыть чат с ИИ
+Toggle Bottom Panel	Показать или скрыть нижнюю панель
+Toggle Expanded Tab	Развернуть или свернуть вкладку
+Next Tab	Следующая вкладка
+Previous Tab	Предыдущая вкладка
+Actual Size	Исходный масштаб
+Zoom In	Увеличить масштаб
+Zoom Out	Уменьшить масштаб
+Theme	Тема
+Light	Светлая
+Dark	Тёмная
+System	Системная
+Toggle Full Screen	Полноэкранный режим
+Window	Окно
+Project Manager	Менеджер проектов
+Organization Messages	Сообщения организации
+Switch Project	Переключить проект
+Session Quick Open	Быстрый выбор сеанса
+Prompt Quick Open	Быстрый выбор запроса
+Content Search	Поиск по содержимому
+Memory Search	Поиск по памяти
+Team Quick Open	Быстрый выбор команды
+Minimize	Свернуть окно
+Reload	Перезагрузить
+Refresh File Tree	Обновить дерево файлов
+Check for Updates...	Проверить обновления…
+Show All	Показать всё
+Help	Справка
+Launch Tutorial	Запустить обучение
+Documentation	Документация
+Install Chrome Extension	Установить расширение Chrome
+Extension SDK Documentation	Документация SDK расширений
+SDK Documentation Not Found	Документация SDK не найдена
+The Extension SDK documentation could not be found. Please reinstall Nimbalyst.	Документация SDK расширений не найдена. Переустановите Nimbalyst.
+Send Feedback...	Отправить отзыв…
+Browse Issues on GitHub	Задачи и ошибки на GitHub
+GitHub Discussions	Обсуждения на GitHub
+Community	Сообщество
+Attach Folder to Workspace	Подключить папку к рабочему пространству
+{0} (Weekly)	{0} (за неделю)
+Opus (Weekly)	Opus (за неделю)
+Nimbalyst - Database Initialization Failed	Nimbalyst — ошибка инициализации базы данных
+Keep mine	Оставить мою версию
+Use theirs	Использовать чужую версию
+Locked	Заблокировано
+Image URL	URL изображения
+Minimap	Мини-карта
+Fit board	Вписать доску в окно
+Previous screen	Предыдущий экран
+Next screen	Следующий экран
+Left	Слева
+Right	Справа
+Top	Сверху
+Middle	Посередине
+Bottom	Снизу
+Horizontally	По горизонтали
+Vertically	По вертикали
+Color	Цвет
+Context	Контекст
+Capture	Снимок
+Recorded	Записано
+Deleted	Удалено
+Go to	Перейти к
+Sources	Источники
+Moved	Перемещено
+Quote lines	Цитировать строки
+Recheck	Проверить повторно
+Set type	Задать тип
+Trash	Корзина
+Your answer	Ваш ответ
+edited from draft	изменено относительно черновика
+Leading	Ведущий
+Change	Изменить
+Image unavailable	Изображение недоступно
+Copy image	Копировать изображение
+Language	Язык
+General	Основные
+Appearance	Внешний вид
+Advanced	Дополнительно
+Advanced Settings	Расширенные настройки
+Application Mode	Режим приложения
+Standard Mode	Обычный режим
+Developer Mode	Режим разработчика
+Feature Availability	Доступность функций
+All Developer Features	Все функции разработчика
+Release Channel	Канал обновлений
+Update Channel	Канал обновлений
+Stable	Стабильный
+Alpha (Developer Releases)	Альфа (версии для разработчиков)
+Agent Language	Язык агента
+Preferred Agent Language	Предпочитаемый язык агента
+Workspaces	Рабочие пространства
+Workspace	Рабочее пространство
+Enabled	Включено
+Disabled	Отключено
+Enable	Включить
+Connect	Подключить
+Disconnect	Отключить
+Update	Обновить
+Reset	Сбросить
+Browse	Обзор
+Learn more	Подробнее
+Learn More	Подробнее
+Notifications	Уведомления
+Privacy	Конфиденциальность
+Security	Безопасность
+Appearance Settings	Настройки внешнего вида
+Font Size	Размер шрифта
+Font Family	Шрифт
+Auto-save	Автосохранение
+Auto Save	Автосохранение
+Default	По умолчанию
+Default Model	Модель по умолчанию
+Sign In	Войти
+Sign Out	Выйти
+Sign in	Войти
+Sign out	Выйти
+Log in	Войти
+Log out	Выйти
+Welcome	Добро пожаловать
+Get Started	Начать работу
+Get started	Начать работу
+Skip	Пропустить
+Finish	Завершить
+Continue with Google	Продолжить с Google
+Continue with GitHub	Продолжить с GitHub
+Email	Электронная почта
+Password	Пароль
+Save Changes	Сохранить изменения
+Reset to Defaults	Восстановить настройки по умолчанию
+Restore Defaults	Восстановить настройки по умолчанию
+Open Folder	Открыть папку
+New Project	Новый проект
+Open Recent	Открыть недавнее
+Clear Recent Projects	Очистить список недавних проектов
+No Recent Projects	Нет недавних проектов
+Launch New Session...	Запустить новый сеанс…
+New Tracker Item...	Новый элемент трекера…
+Import earlier sessions...	Импортировать предыдущие сеансы…
+View Local History...	История локальных изменений…
+Select all	Выделить всё
+Cut	Вырезать
+Paste and Match Style	Вставить с текущим форматированием
+Delete Permanently	Удалить навсегда
+Cancel Download	Отменить загрузку
+Resume	Продолжить
+Stop	Остановить
+Stop Session	Остановить сеанс
+Send	Отправить
+Ask	Спросить
+Ask AI	Спросить ИИ
+Approve	Одобрить
+Reject	Отклонить
+Accept All	Принять всё
+Reject All	Отклонить всё
+Discard	Отбросить
+Discard Changes	Отбросить изменения
+Keep	Сохранить
+Compare	Сравнить
+Diff	Изменения
+Changes	Изменения
+Branch	Ветка
+Branches	Ветки
+Merge	Слияние
+Pull	Получить изменения
+Push	Отправить изменения
+Fetch	Загрузить сведения
+Pull Request	Запрос на слияние
+Pull Requests	Запросы на слияние
+Staged Changes	Подготовленные изменения
+Unstaged Changes	Неподготовленные изменения
+Stage All	Подготовить всё
+Unstage All	Убрать всё из индекса
+Commit Message	Сообщение коммита
+History	История
+Activity	Активность
+Connections	Подключения
+Integrations	Интеграции
+Tools	Инструменты
+Skills	Навыки
+Commands	Команды
+Shortcuts	Сочетания клавиш
+Search settings	Поиск настроек
+Search settings...	Поиск настроек…
+Search files...	Поиск файлов…
+Search sessions...	Поиск сеансов…
+Search projects...	Поиск проектов…
+Search models...	Поиск моделей…
+No results	Ничего не найдено
+No results found	Ничего не найдено
+No sessions	Нет сеансов
+No projects	Нет проектов
+No files	Нет файлов
+No items	Нет элементов
+Empty	Пусто
+Select folder	Выбрать папку
+Select Folder	Выбрать папку
+Open in Explorer	Показать в проводнике
+Show in Explorer	Показать в проводнике
+Open in File Explorer	Показать в проводнике
+Open in Terminal	Открыть в терминале
+Copy Path	Копировать путь
+Copy Relative Path	Копировать относительный путь
+Copy path	Копировать путь
+Copy relative path	Копировать относительный путь
+__nim_excalidraw_locale__	ru-RU
+member role	роль участника
+The	The
+'s desk	— рабочий стол
+Disconnecting…	Отключение…
+Disconnect and discard	Отключить и отбросить
+Start a session on the sandbox	Запустить сеанс в песочнице
+The agent runs in the sandbox, on	Агент работает в песочнице на
+{0} in {1}	{0} в {1}
+the connected workspace	подключённом рабочем пространстве
+. Its sessions appear in your session list, where you can follow progress and send more prompts.	. Сеансы появятся в вашем списке: там можно следить за работой и отправлять новые запросы.
+What should the sandbox agent do?	Что должен сделать агент в песочнице?
+Start remote session	Запустить удалённый сеанс
+Started session	Запущен сеанс
+on the sandbox.	в песочнице.
+Open session	Открыть сеанс
+Deployed sandbox	Развёрнутая песочница
+Deployment	Развёртывание
+(profile	(профиль
+Container	Контейнер
+as of	по состоянию на
+Access	Доступ
+Private — reached over a Worker binding, with no public endpoint.	Приватная — доступ через привязку Worker, без публичного адреса.
+Waking…	Пробуждение…
+Wake sandbox	Пробудить песочницу
+Stop sandbox	Остановить песочницу
+Delete sandbox	Удалить песочницу
+Stopping the container ends every process running in it and discards files written inside it. Nothing in the sandbox is kept.	Остановка контейнера завершит все его процессы и удалит записанные в нём файлы. Содержимое песочницы не сохранится.
+Stopping…	Остановка…
+Review {0} statements that point at {1}	Проверить утверждения ({0}), ссылающиеся на {1}
+Declare {0} on {1}	Объявить {0} для {1}
+Read the other way:	В обратном направлении:
+(it reads the same both ways)	(одинаково в обоих направлениях)
+Expectation	Ожидание
+{0} with {1}	{0} с {1}
+Every {0} should have at least {1}.	У каждого {0} должно быть как минимум {1}.
+All do.	Есть у всех.
+Hide them	Скрыть их
+Show them	Показать их
+Most linked {0}	Наиболее связанные {0}
+All {0} statements	Все утверждения {0}
+Examples	Примеры
+No {0} use it yet. It appears here because the {1} label lists it.	Пока не используется ни одним {0}. Показано здесь, поскольку указано в метке {1}.
+Files a proposal request for an agent or a teammate to act on	Создаёт предложение для агента или участника команды
+Request filed	Запрос создан
+Propose declaring it on {0}	Предложить объявить для {0}
+Review wrong statements	Проверить ошибочные утверждения
+Show examples only	Показать только примеры
+Open statements	Открыть утверждения
+The request could not be filed. Try again.	Не удалось создать запрос. Повторите попытку.
+{0} types in {1} {2}.	Типов: {0} в {1} {2}.
+{0} statements link pages to each other through {1} {2}	Утверждения ({0}) связывают страницы через {1} {2}
+; {0} more {1} declared but unused.	; ещё {0} {1} объявлены, но не используются.
+Most used relationships	Самые частые связи
+Developer	Разработчик
+Open tutorial	Открыть обучение
+Visual workspace for building with coding agents	Визуальное рабочее пространство для работы с ИИ-агентами
+Everything in Nimbalyst lives in a	В Nimbalyst всё организовано в
+project	проект
+: a folder of related files on your computer. For code that is your git repository, for anything else any folder you choose. Open one to write docs, run AI coding agents, track work, and sketch ideas together.	: папку связанных файлов на компьютере. Для кода это репозиторий Git, для других задач — любая выбранная папка. Откройте её, чтобы писать документы, запускать ИИ-агентов, отслеживать работу и набрасывать идеи.
+Documents & notes	Документы и заметки
+Rich text, tables, and files you edit visually.	Текст с форматированием, таблицы и файлы с визуальным редактированием.
+AI coding agents	ИИ-агенты для разработки
+Run Claude Code, Codex, and other agents inside your projects.	Запускайте Claude Code, Codex и других агентов в своих проектах.
+Trackers & plans	Трекеры и планы
+Bugs, tasks, and decisions beside your work.	Ошибки, задачи и решения рядом с вашей работой.
+Diagrams & mockups	Диаграммы и макеты
+Excalidraw, Mermaid, mindmaps, mockups, data models.	Excalidraw, Mermaid, карты мыслей, макеты и модели данных.
+Opens a sample project you work in, hands-on, nothing to set up.	Открывает учебный проект для практики. Настраивать ничего не нужно.
+OR OPEN YOUR OWN PROJECT	ИЛИ ОТКРОЙТЕ СВОЙ ПРОЕКТ
+Open a folder	Откройте папку
+from the sidebar to work in your own project.	на боковой панели, чтобы работать в своём проекте.
+Today	Сегодня
+Yesterday	Вчера
+markdown files	файлов Markdown
+Version	Версия
+Nimbalyst is the visual workspace for building with Codex and Claude Code	Nimbalyst — визуальное рабочее пространство для работы с Codex и Claude Code
+Agentic WYSIWYG visual editors for markdown, mockups, excalidraw, mermaid, data models, csv and code. Extensions.	Визуальные редакторы с ИИ для Markdown, макетов, Excalidraw, Mermaid, моделей данных, CSV и кода. Поддержка расширений.
+Parallel session management and kanban to understand session state, search and resume sessions, and link sessions to files and files to sessions	Управление параллельными сеансами и канбан: отслеживание состояния, поиск и возобновление сеансов, связи между сеансами и файлами.
+Item tracking and kanban to manage plans, bugs, and tasks with your agent	Трекеры и канбан для совместной с агентом работы над планами, ошибками и задачами.
+Open storage of content and status in plain files on disk and git.	Содержимое и состояние хранятся в обычных файлах на диске и в Git.
+Built with ❤️ by	Создано с ❤️ командой
+Third-Party Notices	Сведения о сторонних компонентах
+Your Nimbalyst Support ID:	Ваш идентификатор поддержки Nimbalyst:
+Click to copy	Нажмите, чтобы скопировать
+Loading permissions...	Загрузка разрешений…
+Allow the agent to fetch or curl specific domains. Use wildcards like	Разрешить агенту выполнять запросы fetch и curl к указанным доменам. Можно использовать шаблоны, например
+) are allowed. Restart sessions to apply.	) разрешены. Чтобы применить изменения, перезапустите сеансы.
+Set up sandbox (recommended)	Настроить песочницу (рекомендуется)
+Enables Codex to edit your project with workspace permissions. Recommended setup may ask for Windows administrator approval.	Позволяет Codex редактировать проект с разрешениями рабочего пространства. При рекомендуемой настройке Windows может запросить права администратора.
+Allow Claude to coordinate multiple agents working together as a team. Uses more tokens but enables parallel work.	Разрешить Claude координировать командную работу нескольких агентов. Расходует больше токенов, но позволяет работать параллельно.
+Choose where files are placed before an agent reads them. OS temporary storage keeps current behavior; workspace storage avoids broad AppData deny rules.	Выберите, куда помещать файлы перед чтением агентом. Временная папка ОС сохраняет текущее поведение; папка рабочего пространства позволяет избежать общих запретов доступа к AppData.
+Extensions that have been granted permission to run code outside the renderer (e.g., spawning processes, opening network connections). Revoke anything you do not recognize.	Расширения с разрешением выполнять код вне процесса интерфейса (например, запускать процессы или открывать сетевые соединения). Отзовите разрешения у незнакомых расширений.
+Change permission mode	Изменить режим разрешений
+Deploy sandbox	Развернуть песочницу
+Connecting installs a Nimbalyst agent in the sandbox and signs it in as one of your devices. Your Claude Code subscription login is copied into the sandbox so the agent can use it. The sandbox discards everything inside it whenever it sleeps, so anything the agent has not pushed to git is lost and the node has to be connected again.	При подключении в песочницу устанавливается агент Nimbalyst и выполняет вход как одно из ваших устройств. Данные входа по подписке Claude Code копируются в песочницу для использования агентом. При переходе в сон песочница удаляет всё содержимое: изменения, не отправленные в Git, теряются, а узел нужно подключать заново.
+Disconnecting asks the agent to stop, ending any session it is running, and revokes its sync credential so reconnecting issues a new one. Anything it wrote and has not pushed stays in the sandbox until the sandbox next sleeps, and is then lost.	При отключении агент получает команду остановиться и завершить текущий сеанс. Его учётные данные синхронизации отзываются; при повторном подключении выдаются новые. Изменения, не отправленные в Git, остаются в песочнице до следующего перехода в сон, а затем удаляются.
+Loading history	Загрузка истории
+Loading pull requests…	Загрузка запросов на слияние…
+Loading checks…	Загрузка проверок…
+Loading issues…	Загрузка задач…
+Loading diagram...	Загрузка диаграммы…
+Loading hunks…	Загрузка блоков изменений…
+Loading crew...	Загрузка команды…
+Loading diff...	Загрузка сравнения…
+Loading diff…	Загрузка сравнения…
+Trust Workspace	Доверять рабочему пространству
+Trust this workspace to allow the AI agent to run commands.	Отметьте рабочее пространство как доверенное, чтобы разрешить ИИ-агенту выполнять команды.
+Ask every time	Спрашивать каждый раз
+Remove and delete	Удалить аккаунт и данные
+Remove from milestone	Убрать из этапа
+Ask teammates	Спросить команду
+Delete Sessions	Удалить сеансы
+Read-only while reviewing. Keep or Revert to edit.	Во время проверки доступно только чтение. Чтобы редактировать, сохраните или откатите изменения.
+Delete shared view?	Удалить общее представление?
+Remove URL pattern	Удалить шаблон URL
+Delete tracker type "{0}"	Удалить тип трекера «{0}»
+Ask the agent to draft this	Попросить агента подготовить черновик
+Ask someone	Спросить участника
+Remove from the crew	Убрать из команды
+Remove {0}?	Удалить {0}?
+Moves all of	Перемещает всё из
+Merged into {0}	Объединено с {0}
+Project size:	Размер проекта:
+Rewrites old Claude Code messages to drop the SDK's redundant original-file copies, patches, and thinking signatures that nothing renders. Optionally VACUUMs to shrink the database file (locks the DB for several minutes). Back up first.	Перезаписывает старые сообщения Claude Code, удаляя избыточные копии исходных файлов, патчи и подписи рассуждений SDK, которые нигде не отображаются. По желанию выполняет VACUUM для уменьшения базы (блокирует её на несколько минут). Сначала создайте резервную копию.
+Your session history contains	История сеансов содержит
+No installed extension opens	Ни одно установленное расширение не открывает
+## Heading	## Заголовок
+This session runs the genuine	В этом сеансе используется оригинальный
+Per-table breakdown (	Разбивка по таблицам (
+Import as	Импортировать как
+Tracker document panel	Панель документов трекера
+and use the	и используйте
+Enable override to customize	Включите переопределение, чтобы настроить
+: there is no	: отсутствует
+Failed to render	Не удалось отобразить
+No flags yet. Anything	Отметок пока нет. Всё, что
+Answer on	Ответить в
+With this extension enabled, Quick Open gains a	При включённом расширении в быстром открытии появляется
+This model has no areas. Nothing is mapped, so the Atlas shows nothing rather than inventing territories.	В этой модели нет областей. Ничего не сопоставлено, поэтому Атлас остаётся пустым и не придумывает территории.
+Now:	Сейчас:
+neighboring records ·	соседних записей ·
+-- {0} more lines below; scroll the box to read them all	— ещё строк ниже: {0}; прокрутите область, чтобы прочитать всё
+-- your default model	— ваша модель по умолчанию
+-- lowered from {0}, the highest this model supports is {1}	— снижено с {0}; максимум для этой модели — {1}
+selected	выбрано
+characters	символов
+hidden	скрыто
+more	ещё
+of	из
+and	и
+by	автор:
+placed	размещено
+issue	задача
+option	вариант
+dated	от
+item	элемент
+match	совпадение
+...and	…и
+messages	сообщений
+tokens	токенов
+worktree	рабочее дерево
+document	документ
+across	в
+subfolder	подпапка
+moved	перемещено
+elevated	с повышенными правами
+member	участник
+attachments	вложений
+verified.	проверено.
+relocated	перенесено
+transferred	передано
+additional	дополнительно
+files	файлов
+sessions	сеансов
+messages.	сообщений.
+from	из
+rows	строк
+/sec	/с
+families	семейств
+running	выполняется
+uncommitted	без коммита
+ahead	впереди
+behind	позади
+session	сеанс
+iterations	итераций
+active	активно
+worktrees	рабочих деревьев
+that	который
+edited	изменено
+inline.	в строке.
+queued	в очереди
+commit	коммит
+turns	ходов
+total	всего
+waiting	ожидание
+snapshot	снимок
+detected.	обнаружено.
+available	доступно
+into	в
+opened	открыто
+read	прочитано
+provider.	провайдер.
+required	обязательно
+tools	инструментов
+settings	настройки
+update	обновление
+denied:	запрещено:
+installs	установок
+docs	документов
+excluded	исключено
+lines	строк
+hunks	блоков изменений
+committed	в коммите
+chars	символов
+older	раньше
+changed	изменено
+result	результат
+detached	отсоединено
+facts	фактов
+priority	приоритет
+time	время
+passed	пройдено
+failed	ошибок
+flaky	нестабильных
+skipped	пропущено
+tests	тестов
+or	или
+nodes	узлов
+days	дней
+edges	связей
+workspace:	рабочее пространство:
+only	только
+record	запись
+event	событие
+events	событий
+bucket	группа
+rows.	строк.
+noted	отмечено
+earlier	раньше
+shown	показано
+recent	недавние
+connection	подключение
+sources	источников
+Project Manager - Nimbalyst	Менеджер проектов — Nimbalyst
+Nimbalyst - Project Manager	Nimbalyst — менеджер проектов
+Nimbalyst	Nimbalyst
+Codex	Codex
+Claude	Claude
+Claude Code	Claude Code
+OpenAI	OpenAI
+GitHub	GitHub
+GitLab	GitLab
+JavaScript	JavaScript
+TypeScript	TypeScript
+Python	Python
+Markdown	Markdown
+Excalidraw	Excalidraw
+Mermaid	Mermaid
+Google	Google
+OpenCode	OpenCode
+Gemini	Gemini
+Cloudflare	Cloudflare
+Wrangler	Wrangler
+Node.js	Node.js
+SQLite	SQLite
+MCP	MCP
+HTTP	HTTP
+API	API
+CLI	CLI
+CSS	CSS
+HTML	HTML
+JSON	JSON
+YAML	YAML
+SQL	SQL
+LM Studio	LM Studio
+GitHub Copilot	GitHub Copilot
+Grok Build	Grok Build
+Cursor Agent	Cursor Agent
+VS Code	VS Code
+__nim_menu_edit__	Правка
+Opus	Opus
+Sonnet	Sonnet
+Haiku	Haiku
+Fable	Fable
+OpenAI Codex	OpenAI Codex
+Nimbalyst - {0}	Nimbalyst — {0}
+How did you hear about Nimbalyst?	Откуда вы узнали о Nimbalyst?
+What best describes your role?	Какая роль лучше всего вам подходит?
+Simplified interface focused on writing, editing, and AI assistance	Упрощённый интерфейс для работы с текстом и ИИ-помощником
+Full development environment with git worktrees, terminal access, development specific features	Полная среда разработки с рабочими деревьями Git, терминалом и инструментами разработчика
+We collect usage data to improve Nimbalyst. No prompts or content are ever collected. You can opt out of analytics at any time in Settings.	Мы собираем данные об использовании для улучшения Nimbalyst. Запросы и содержимое не собираются. Сбор аналитики можно отключить в настройках.
+Export registry workflows into .agents/skills/.nimbalyst-generated before Codex turns.	Экспортировать рабочие процессы из реестра в .agents/skills/.nimbalyst-generated перед ходами Codex.
+After a Claude Code turn you started, show a predicted next prompt in the input. Press Tab to fill it in, then Enter to send. Each suggestion is one extra model call that reuses the conversation cache.	После запущенного вами хода Claude Code предлагать следующий запрос в поле ввода. Tab вставляет предложение, Enter отправляет его. Каждое предложение требует дополнительного вызова модели с повторным использованием кэша разговора.
+{0}m ago	{0} мин. назад
+{0}h ago	{0} ч. назад
+{0}d ago	{0} дн. назад
+{0}h {1}m	{0} ч. {1} мин.
+{0}m	{0} мин.
+{0} days ago	{0} дн. назад
+{0} week{1} ago	{0} нед. назад{1}
+just now	только что
+Never	Никогда
+Ask every time	Спрашивать каждый раз
+Allow everything	Разрешить всё
+Agent-verified	С проверкой агентом
+Works without interrupting you; risky actions like deploys and destructive commands pause for your OK.	Работает без лишних вопросов; перед рискованными действиями, например развёртыванием или разрушительными командами, ждёт вашего подтверждения.
+protocol error	ошибка протокола
+{0} {1} session{2}	{0}; сеансов: {1}{2}
+{0}: {1}, {2} session{3}	{0}: {1}; сеансов: {2}{3}
+{0} uncommitted change{1} across all sessions	Изменений без коммита во всех сеансах: {0}{1}
+{0} of {1} session{2}	Сеансов: {0} из {1}{2}
+{0} session{1}	Сеансов: {0}{1}
+{0} uncommitted file{1}	Файлов без коммита: {0}{1}
+Search {0} existing session{1}	Поиск по существующим сеансам: {0}{1}
+Export {0} database page{1} to files	Экспорт страниц базы данных в файлы: {0}{1}
+{0} file{1} selected · committed exactly as selected	Выбрано файлов: {0}{1} · в коммит войдёт именно выбранное
+No prompts, no checks — every action runs immediately. For projects you fully trust.	Без запросов и проверок: все действия выполняются сразу. Только для проектов, которым вы полностью доверяете.
+File edits run automatically; shell commands and web requests ask first.	Файлы редактируются автоматически; команды терминала и веб-запросы требуют подтверждения.
+Approve each action before it runs. Your approvals are remembered.	Подтверждайте каждое действие перед выполнением. Ваши разрешения запоминаются.
+Works without interrupting you;	Работает без лишних вопросов;
+risky actions	рискованные действия
+like deploys and destructive commands	— например, развёртывание и разрушительные команды —
+pause for your OK	ожидают вашего подтверждения
+don't trust it	не разрешайте агентам доступ
+Agents can run this project's code. If you do not recognize where this project came from,	Агенты могут выполнять код проекта. Если вы не уверены в его происхождении,
+Choose how much your coding agents can do on their own. You can change this at any time.	Выберите, какие действия агенты могут выполнять самостоятельно. Эти настройки можно изменить в любой момент.
+Actions	Действия
+Files like **.mockup.html**, **.excalidraw**, and **.mindmap** open in visual editors. Ask the agent to create one and it renders live as it writes.	Файлы **.mockup.html**, **.excalidraw** и **.mindmap** открываются в визуальных редакторах. Попросите агента создать такой файл — результат будет отображаться по мере работы.
+PR Review	Проверка PR
+Claude Code Installation Required	Требуется установка Claude Code
+Choose how much your coding agents can do on their own. You can change this anytime.	Выберите, какие действия агенты могут выполнять самостоятельно. Эти настройки можно изменить в любой момент.
+Agents can run this project's code. If you don't recognize where this project came from,	Агенты могут выполнять код проекта. Если вы не уверены в его происхождении,
+Create **nimbalyst-local/ai-actions.md** to define one-click prompts. They show up in the composer's Actions dropdown -- great for recurring workflows like "review this diff" or "write release notes".	Создайте **nimbalyst-local/ai-actions.md** с запросами для запуска одним нажатием. Они появятся в меню «Действия» у поля ввода — удобно для повторяемых задач, например проверки изменений или подготовки описания выпуска.
+The agent has never drawn a diagram for you. Ask it to sketch an architecture or a flow and it will build the Excalidraw diagram directly through its tools.	Агент ещё не рисовал для вас диаграммы. Попросите набросать архитектуру или процесс — он создаст диаграмму Excalidraw своими инструментами.
+Enable auto-commit in the Claude Code panel and every turn ends with a checkpoint commit. Easy to revert, hard to lose work to a runaway agent.	Включите автоматические коммиты в панели Claude Code: каждый ход будет завершаться сохранением контрольной точки. Так проще откатить изменения и сохранить работу, если агент ошибётся.
+Drop a **CLAUDE.md** at the workspace root with your coding conventions, preferred tools, and tone. Every session loads it automatically -- you only have to write it once.	Добавьте **CLAUDE.md** в корень рабочего пространства: укажите правила разработки, предпочитаемые инструменты и стиль общения. Каждый сеанс автоматически загрузит этот файл.
+Hit **Cmd+Shift+F** for cross-file regex search across the workspace. Results group by file with one-click jump-to-line.	Нажмите **Cmd+Shift+F** для поиска по рабочему пространству с регулярными выражениями. Результаты группируются по файлам; нажатие переносит к нужной строке.
+A **.datamodel** file is a Prisma-style schema with a live ER diagram. The agent can edit it like any source file, and you get the diagram for free.	Файл **.datamodel** — схема в стиле Prisma с живой ER-диаграммой. Агент редактирует его как исходный код, а диаграмма обновляется автоматически.
+Every save snapshots the file. **Cmd+Y** opens the history dialog with diffs against any earlier version -- click to restore. Hidden safety net for big edits.	При каждом сохранении создаётся снимок файла. **Cmd+Y** открывает историю со сравнением версий и восстановлением одним нажатием. Это помогает отменить крупные неудачные правки.
+Right-click a file and pick **Share** to publish an end-to-end-encrypted link. Recipients open it in a browser -- no Nimbalyst account needed.	Щёлкните файл правой кнопкой и выберите **Поделиться**, чтобы опубликовать ссылку со сквозным шифрованием. Получатели откроют её в браузере без аккаунта Nimbalyst.
+Create a **.excalidraw** file to draw boxes, arrows, and freeform diagrams. The agent can read and modify those drawings via tools -- great for system architecture and flow sketches.	Создайте файл **.excalidraw**, чтобы рисовать блоки, стрелки и произвольные схемы. Агент умеет читать и изменять рисунки своими инструментами — удобно для архитектуры и схем процессов.
+Open a file, then ask the agent to **explain, revise, or extend it**. The active file is included as context automatically.	Откройте файл и попросите агента **объяснить, исправить или дополнить его**. Активный файл автоматически добавляется в контекст.
+You have used the app for a while, but have not triggered any tracked keyboard shortcuts yet. The shortcuts dialog is a fast way to find the ones you will actually use.	Вы уже пользуетесь приложением, но пока не применяли отслеживаемые сочетания клавиш. Откройте их список, чтобы выбрать полезные для себя.
+If the agent is heading the wrong way, hit the **lightning bolt** next to the composer to interrupt it. Type a redirect into the composer and it resumes from there -- no need to wait the turn out.	Если агент пошёл не в ту сторону, нажмите **значок молнии** рядом с полем ввода. Введите уточнение — агент продолжит с учётом новых указаний, не дожидаясь завершения текущего хода.
+Your computer going to sleep will disconnect mobile sync. Enable keep-awake while plugged in to prevent this.	При переходе компьютера в сон синхронизация с мобильным устройством прерывается. Чтобы этого избежать, включите запрет сна при подключённом питании.
+Pair the iOS app and prompt your desktop agents from anywhere. The desktop runs the heavy work; you steer it from the couch or the road.	Подключите приложение iOS и управляйте агентами компьютера из любого места. Вычисления выполняются на компьютере, а вы направляете работу с телефона.
+Files ending in **.mockup.html** render as live, annotatable wireframes alongside source. Ask the agent to "create a mockup for X" to get a starting point you can edit visually.	Файлы **.mockup.html** отображаются как живые макеты с аннотациями рядом с исходным кодом. Попросите агента создать макет — и доработайте его визуально.
+Skip the file tree. **Cmd+O** opens a fuzzy finder over every file in the workspace -- type a fragment of the path and hit enter.	**Cmd+O** открывает нечёткий поиск по всем файлам рабочего пространства. Введите часть пути и нажмите Enter — искать файл в дереве не нужно.
+Your agent can read this project and your recent sessions and tell you what would make them go better -- **extensions** that match your files, features you have not touched, and **instructions** worth adding so every future session starts smarter.	Агент может изучить проект и недавние сеансы и предложить улучшения: подходящие **расширения**, ещё не использованные функции и полезные **инструкции** для следующих сеансов.
+Your Sessions board is filling up. Your agent can **clean it up** -- fixing each session's phase, marking finished work **complete**, and flagging old sessions to archive.	На доске много сеансов. Попросите агента **навести порядок**: уточнить этапы, отметить завершённую работу и предложить старые сеансы для архива.
+Press **Cmd+Shift+N** anywhere in Nimbalyst to open the session launcher. Submit your prompt and the session starts in the background, so you stay right where you are.	Нажмите **Cmd+Shift+N** в Nimbalyst, чтобы открыть окно запуска сеанса. Отправьте запрос — сеанс начнётся в фоне, а вы останетесь на текущем экране.
+Sessions can be published as **end-to-end-encrypted links** with 1, 7, or 30 day expiry. Use the share button on a session to send the full transcript to a teammate.	Сеанс можно опубликовать по **ссылке со сквозным шифрованием** на 1, 7 или 30 дней. Кнопка «Поделиться» позволяет отправить участнику команды всю переписку сеанса.
+Drop a **.csv** in the workspace and it opens with sorting, formulas, and AI tooling -- no need to flip to source view to make edits.	Добавьте **.csv** в рабочее пространство: он откроется с сортировкой, формулами и инструментами ИИ. Для редактирования не нужно переходить к исходному тексту.
+You have been back a few times without changing the look of the app. **Themes** are already built in, and the settings panel shows the full set at once.	В приложении есть встроенные **темы оформления**. В настройках можно просмотреть весь набор и выбрать подходящую.
+You have been using AI sessions heavily, but **Tracker Mode** gives you a durable place to manage bugs, tasks, and decisions across those sessions.	**Режим трекера** помогает хранить ошибки, задачи и решения в одном месте и связывать работу из разных сеансов с ИИ.
+Ask the agent to **schedule a wakeup** ("check the build in 5 minutes", "poll the PR every 30s") and it self-resumes -- no need to babysit a long-running task.	Попросите агента **запланировать пробуждение**: например, проверить сборку через 5 минут или проверять PR каждые 30 секунд. Он продолжит работу самостоятельно.
+You are deep into agent sessions on a git repo, but have not created a **worktree session** yet. Worktrees give experiments their own branch and working directory without disturbing the main checkout.	**Сеанс в рабочем дереве** создаёт отдельную ветку и каталог для экспериментов в репозитории Git, не затрагивая основную рабочую копию.
+Mentions, assignments, replies, and activity in conversations you follow land here.	Здесь появляются упоминания, назначения, ответы и события из отслеживаемых разговоров.
+Someone has to @mention you — or an agent you own — for a delivery to arrive here.	Сообщение появится здесь, когда кто-то упомянет через @ вас или вашего агента.
+Tracker assignments and equivalent actionable deliveries collect here.	Здесь собираются назначения из трекера и другие сообщения, требующие действий.
+Feedback requests addressed to you collect here until you answer them.	Адресованные вам запросы обратной связи остаются здесь до вашего ответа.
+Posting in a conversation follows it automatically, or you can follow one explicitly.	Отправка сообщения автоматически включает отслеживание разговора. Его также можно включить вручную.
+Dismissing a delivery files it here, out of every other row but still readable.	Скрытое сообщение перемещается сюда. Оно убирается из остальных списков, но остаётся доступным для чтения.
+You are caught up on deliveries and on the conversations you follow.	Новых сообщений в отслеживаемых разговорах нет.
