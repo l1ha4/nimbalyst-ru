@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 [assembly: AssemblyTitle("Nimbalyst RU Setup")]
 [assembly: AssemblyDescription("Unofficial Russian translation installer for Nimbalyst")]
-[assembly: AssemblyVersion("1.1.0.0")]
+[assembly: AssemblyVersion("1.2.0.0")]
 
 internal static class Program {
     internal static string Package;
@@ -80,7 +80,7 @@ internal sealed class SetupForm : Form {
         layout.RowStyles.Add(new RowStyle(SizeType.Absolute, 34));
         layout.RowStyles.Add(new RowStyle(SizeType.Absolute, 35));
         layout.Controls.Add(new Label { Text = "Nimbalyst на русском", Font = new Font("Segoe UI", 19, FontStyle.Bold), Dock = DockStyle.Fill });
-        layout.Controls.Add(new Label { Text = "Неофициальный русификатор 1.1.0 · Windows x64 · проверен с Nimbalyst 0.83.0\nПолностью закройте Nimbalyst перед установкой или удалением.\nNode.js включён в пакет. Исходные файлы сохраняются для отката.", Dock = DockStyle.Fill });
+        layout.Controls.Add(new Label { Text = "Неофициальный русификатор 1.2.0 · Windows x64 · проверен с Nimbalyst 0.83.0\nПолностью закройте Nimbalyst перед установкой или удалением.\nNode.js включён в пакет. Исходные файлы сохраняются для отката.", Dock = DockStyle.Fill });
         var paths = new TableLayoutPanel { Dock = DockStyle.Fill, ColumnCount = 3 };
         paths.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 165)); paths.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100)); paths.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 100));
         paths.Controls.Add(new Label { Text = "Папка приложения:", Dock = DockStyle.Fill });

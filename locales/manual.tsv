@@ -964,3 +964,86 @@ Feedback requests addressed to you collect here until you answer them.	Адре�
 Posting in a conversation follows it automatically, or you can follow one explicitly.	Отправка сообщения автоматически включает отслеживание разговора. Его также можно включить вручную.
 Dismissing a delivery files it here, out of every other row but still readable.	Скрытое сообщение перемещается сюда. Оно убирается из остальных списков, но остаётся доступным для чтения.
 You are caught up on deliveries and on the conversations you follow.	Новых сообщений в отслеживаемых разговорах нет.
+
+Nimbalyst will notify you when AI responses are ready.	Nimbalyst уведомит вас, когда ответы ИИ будут готовы.
+Nimbalyst could not open the project for this session. Open the project, then retry.	Не удалось открыть проект этого сеанса. Откройте проект и повторите попытку.
+Create an **.anim.json** file to build an explainer that plays: a request crossing a cache, a queue draining, a retry after a timeout. You write steps, not keyframes, so the agent can author and edit the whole thing as plain JSON.	Создайте файл **.anim.json** с анимированным объяснением: запрос проходит через кеш, очередь сокращается, после тайм-аута выполняется повторная попытка. Анимация задаётся шагами, поэтому агент может создавать и редактировать её как обычный JSON.
+A **.canvas** board holds cards that mount the actual editor for the file they point at -- the mockup renders, the spreadsheet shows real numbers, the document is editable in place. Describe the board you want and the agent arranges it, wired with edges.	На доске **.canvas** карточки содержат полноценные редакторы файлов: макет отображается, таблица показывает данные, документ можно редактировать прямо на доске. Опишите нужную доску — агент разместит карточки и соединит их.
+With **Teams**, your docs, mockups, diagrams, and trackers can be shared. Teammates edit the same files live or asynch, and each teammate's local agent works on those same shared artifacts. Promote any local file to shared in a click or create a new shared file. See how Teams works {0}	С **Teams** можно совместно работать с документами, макетами, диаграммами и трекерами. Участники команды редактируют общие файлы одновременно или в разное время, а их локальные агенты работают с теми же материалами. Сделайте локальный файл общим одним щелчком или создайте новый общий файл. Как работает Teams: {0}
+Files like **.mockup.html**, **.excalidraw**, and **.mindmap** open in visual editors. Ask the agent to create one and it renders live as it writes.	Файлы **.mockup.html**, **.excalidraw** и **.mindmap** открываются в визуальных редакторах. Попросите агента создать такой файл — результат будет отображаться по мере работы.
+/ Component:	/ Компонент:
+{0} week{1} ago	{0} нед. назад{1}
+
+{0} minute{1} ago	{0} мин. назад{1}
+{0} hour{1} ago	{0} ч. назад{1}
+{0} day{1} ago	{0} дн. назад{1}
+{0} month{1} ago	{0} мес. назад{1}
+1 day ago	День назад
+1 hour ago	Час назад
+{0} hours ago	{0} ч. назад
+1 minute ago	Минуту назад
+{0} minutes ago	{0} мин. назад
+in {0} days	через {0} дн.
+Tracker Get	Получение элемента трекера
+Tracker Create	Создание элемента трекера
+Tracker Update	Обновление элемента трекера
+Tracker Link	Связь элементов трекера
+File Link	Ссылка на файл
+
+No personal pages yet.	Личных страниц пока нет.
+No favorites yet.	В избранном пока ничего нет.
+Star a document to pin it here.	Добавьте документ в избранное, чтобы закрепить его здесь.
+You're all caught up.	Вы просмотрели все обновления.
+No documents changed since you last viewed them.	После вашего последнего просмотра документы не менялись.
+No shared documents yet.	Общих документов пока нет.
+Create one here or share a local file to collaborate.	Создайте документ здесь или откройте общий доступ к локальному файлу.
+No team connected to this workspace.	К рабочему пространству не подключена команда.
+Enter some rich text...	Введите текст…
+Enter some plain text...	Введите обычный текст…
+Context usage {0} of {1} tokens ({2}%)	Контекст: {0} из {1} токенов ({2}%)
+Session token usage: {0} tokens used; this agent reports no context window size	В сеансе использовано {0} токенов; агент не сообщает размер окна контекста
+Token usage data not available yet	Данные об использовании токенов пока недоступны
+Dictate (click, or hold {0})	Диктовка: нажмите кнопку или удерживайте {0}
+Stop dictation (Esc discards the unfinished phrase)	Остановить диктовку (Esc отменяет незавершённую фразу)
+Waiting for the microphone...	Ожидание микрофона…
+Typeahead menu	Меню подсказок
+Local	Локальные
+Personal	Личные
+Team	Команда
+Back to {0}	Назад к {0}
+Forward	Вперёд
+
+(not in the registry)	(нет в реестре)
+No items to display	Нет элементов для отображения
+No tags on these items yet	У этих элементов пока нет тегов
+Loading tag board…	Загрузка доски тегов…
+Loading timeline…	Загрузка временной шкалы…
+Generating new name suggestions	Подбор новых вариантов названия
+Cancel generating new name suggestions	Отменить подбор новых вариантов названия
+High risk	Высокий риск
+Low risk	Низкий риск
+Terminal input	Ввод в терминал
+Week ended	Неделя завершилась
+Squash and merge	Объединить коммиты и слить
+Create a merge commit	Создать коммит слияния
+Rebase and merge	Перебазировать и слить
+Forward to {0}	Вперёд к {0}
+Connecting to this project's shared area. Feedback requests appear once it resolves.	Подключение к общей области проекта. После подключения появятся запросы обратной связи.
+No feedback requests have reached this device yet. They appear once your team connection is signed in and synced.	На этом устройстве пока нет запросов обратной связи. Они появятся после входа в команду и синхронизации.
+No feedback requests yet. When someone asks you for feedback — or you ask your team — the request lands here and stays after it is answered.	Запросов обратной связи пока нет. Здесь появятся обращения к вам и ваши запросы команде. После ответа они сохранятся.
+Document questions will appear once the inventory is available.	Вопросы по документам появятся после загрузки их списка.
+No requests match this filter.	Нет запросов, соответствующих фильтру.
+Not deployed	Не развёрнуто
+Deployment failed	Развёртывание не удалось
+Not observed yet	Ещё не обнаружено
+assigned to	назначено
+not assigned to	не назначено
+the user	пользователь
+your schedule	ваше расписание
+a wake you scheduled	запланированное вами пробуждение
+a session you delegated	делегированный вами сеанс
+a schedule missed while Nimbalyst was closed	запуск по расписанию, пропущенный при закрытом Nimbalyst
+, {0} waiting	, ожидают: {0}
+{0} (in)	{0} (входящие)
+and {0} other value{1}	и ещё значений: {0}{1}
+· clipped by the selected range	· ограничено выбранным диапазоном

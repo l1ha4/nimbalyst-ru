@@ -59,3 +59,52 @@ test('Recovery restores an interrupted mixed installation and refuses unknown by
 test('Path traversal and foreign app archives are refused',()=>{
  assert.throws(()=>core.inside(tmp,'../escape'),/путь/);const dir=app('foreign');archive(path.join(dir,'resources','app.asar'),{'package.json':'{"name":"foreign"}'});assert.throws(()=>core.detect(dir),/не пакет Nimbalyst/);
 });
+
+test('Skill descriptions translate only at render sinks; command data, prompts, and unknown strings are preserved',()=>{
+ const display=require('../lib/display.cjs'),vm=require('node:vm');
+ const src='const cmd={name:"design",description:"Create a structured plan document"};const payload={description:cmd.description,prompt:"Create a structured plan document"};const card=jsx("div",{className:"slash-command-tooltip",children:cmd.description});const ordinary=jsx("div",{children:cmd.description});globalThis.result={cmd,payload,card,ordinary};';
+ const code=display.patch(src,'out/renderer/assets/index-test.js',{'Create a structured plan document':'Создать структурированный план'}).source;
+ const ctx={jsx:(tag,props)=>props};vm.runInNewContext(code,ctx);assert.equal(ctx.result.card.children,'Создать структурированный план');assert.equal(ctx.result.ordinary.children,'Create a structured plan document');assert.equal(ctx.result.cmd.description,ctx.result.payload.prompt);assert.equal(ctx.result.cmd.name,'design');
+ assert.equal(vm.runInNewContext('__nimbalystRuDisplay120("Unknown custom skill")',ctx),'Unknown custom skill');assert.equal(vm.runInNewContext('__nimbalystRuDisplay120(null)',ctx),null);
+});
+test('Display metadata is whitespace tolerant; grouped IDs and prompt actions stay English',()=>{
+ const display=require('../lib/display.cjs'),vm=require('node:vm');let clicked;
+ const source='const section="Plugin Skills",label="Summarize this project",prompt="Summarize this project";globalThis.views=[jsx("div",{className:"generic-typeahead-section-header",children:section}),jsx("button",{className:"workspace-welcome-prompt-pick",children:label,onClick:()=>send(prompt)}),jsx("p",{children:selectedExtension.description||"No description"})];globalThis.section=section;';
+ const context={jsx:(tag,p)=>p,send:x=>{clicked=x},selectedExtension:{description:'  First\n second  '}};
+ const output=display.patch(source,'out/renderer/assets/test.js',{'Plugin Skills':'Навыки расширений','Summarize this project':'Кратко опиши проект','First second':'Описание'});vm.runInNewContext(output.source,context);assert.equal(context.views[0].children,'Навыки расширений');assert.equal(context.section,'Plugin Skills');assert.equal(context.views[1].children,'Кратко опиши проект');context.views[1].onClick();assert.equal(clicked,'Summarize this project');assert.equal(context.views[2].children,'Описание');
+ assert.equal(display.patch(source,'out/main/index.js',{}).source,source);
+});
+test('Known skill catalog covers every shipped inventory entry and renders each without changing its source object',()=>{
+ const catalog=require('../locales/skills.json'),display=require('../lib/display.cjs'),vm=require('node:vm');assert.equal(Object.keys(catalog).length,187);
+ const code=display.patch('globalThis.render=(option2)=>jsx("div",{className:"generic-typeahead-option-description",children:option2.description});','out/renderer/assets/test.js',catalog).source;
+ const context={jsx:(tag,p)=>p};vm.runInNewContext(code,context);for(const [en,ru] of Object.entries(catalog)){const data={description:en};assert.equal(context.render(data).children,ru);assert.equal(data.description,en);assert.match(ru,/[А-Яа-я]/);}
+});
+test('Bundled date function names with numeric suffixes get UI translations',()=>{
+ const s='const formatDate2=()=>"Today";function formatRelativeTime$1(){return "Yesterday"}function execute2(){return "Today"}';
+ // This renderer uses block-bodied date functions; unrelated data returns remain untouched.
+ const output=strings.patch(s.replace('()=>"Today"','()=>{return "Today"}'),'out/renderer/assets/test.js',{'Today':'Сегодня','Yesterday':'Вчера'}).source;
+ assert.ok(output.includes('return "Сегодня"'));assert.ok(output.includes('return "Вчера"'));assert.ok(output.includes('function execute2(){return "Today"}'));
+});
+function markOlderVersion(dir){
+ const info=core.detect(dir),state=JSON.parse(fs.readFileSync(info.stateFile)),target=path.join(dir,'resources/app.asar'),tmp=target+'.fixture';const marker={...info.marker,version:'1.1.0'};asar.write(info.archive,new Map([['nimbalyst-ru.json',Buffer.from(JSON.stringify(marker))]]),tmp);fs.copyFileSync(tmp,target);fs.unlinkSync(tmp);state.modVersion='1.1.0';state.files.find(f=>f.rel==='resources/app.asar').after=asar.hash(fs.readFileSync(target));fs.writeFileSync(info.stateFile,JSON.stringify(state));return state;
+}
+test('One-click mod upgrade rebuilds original bytes and preserves the exact original backup for uninstall',()=>{
+ const dir=app('upgrade-mod'),file=path.join(dir,'resources/app.asar'),before=fs.readFileSync(file);core.install(core.detect(dir),false);const previous=markOlderVersion(dir);core.install(core.detect(dir),false);const info=core.detect(dir),state=JSON.parse(fs.readFileSync(info.stateFile));assert.equal(info.marker.version,require('../mod.json').version);assert.equal(state.backupDir,previous.backupDir);assert.deepEqual(fs.readFileSync(path.join(state.backupDir,'resources/app.asar')),before);core.uninstall(info);assert.deepEqual(fs.readFileSync(file),before);
+});
+test('Mod upgrade refuses corrupt originals before changing the existing translation',()=>{
+ const dir=app('upgrade-refusal');core.install(core.detect(dir),false);const previous=markOlderVersion(dir),file=path.join(dir,'resources/app.asar'),before=fs.readFileSync(file);fs.appendFileSync(path.join(previous.backupDir,'resources/app.asar'),'corrupt');assert.throws(()=>core.install(core.detect(dir),false),/Повреждена резервная копия/);assert.deepEqual(fs.readFileSync(file),before);
+});
+test('Failed upgrade restores previous translated bytes and its installation journal',()=>{
+ const dir=app('upgrade-rollback');core.install(core.detect(dir),false);const previous=markOlderVersion(dir),info=core.detect(dir),file=path.join(dir,'resources/app.asar'),before=fs.readFileSync(file),rename=fs.renameSync;let injected=false;
+ fs.renameSync=(from,to)=>{if(!injected&&from===file+'.nimbalyst-ru-new'){injected=true;throw Error('injected upgrade failure');}return rename(from,to);};
+ try{assert.throws(()=>core.install(core.detect(dir),false),/injected upgrade failure/);}finally{fs.renameSync=rename;}
+ assert.deepEqual(fs.readFileSync(file),before);assert.deepEqual(JSON.parse(fs.readFileSync(info.stateFile)),previous);core.uninstall(core.detect(dir));
+});
+test('Recovery accepts the recorded old mod bytes after an interrupted upgrade and restores originals',()=>{
+ const dir=app('upgrade-recover');core.install(core.detect(dir),false);markOlderVersion(dir);const info=core.detect(dir),record=JSON.parse(fs.readFileSync(info.stateFile));record.status='prepared';for(const f of record.files){f.previousSha256=f.after;f.after='f'.repeat(64);}fs.writeFileSync(info.stateFile,JSON.stringify(record));core.recover(info);assert.equal(asar.read(path.join(dir,'resources/app.asar')).sha256,record.files.find(f=>f.rel==='resources/app.asar').before);
+});
+test('Wiki placeholders, empty messages and nested navigation titles translate without touching data attributes or prompts',()=>{
+ const src='function Editor$1(){const placeholder=rich?"Enter some rich text...":"Enter some plain text...";return placeholder}const x=jsx(Empty,{message:"No tracker items yet."});el.setAttribute("aria-label","Typeahead menu");el.setAttribute("data-value","Typeahead menu");const button={title:`${back?`Back to ${back.fileName}`:"Back"} (${MOD}+[)`};const payload={message:"No tracker items yet.",prompt:"Enter some rich text..."};';
+ const catalog={'Enter some rich text...':'Введите текст…','Enter some plain text...':'Введите обычный текст…','No tracker items yet.':'Элементов трекера пока нет.','Typeahead menu':'Меню подсказок','Back to {0}':'Назад к {0}','Back':'Назад'};
+ const out=strings.patch(src,'out/renderer/assets/test.js',catalog).source;assert.ok(out.includes('rich?"Введите текст…":"Введите обычный текст…"'));assert.ok(out.includes('message:"Элементов трекера пока нет."'));assert.ok(out.includes('setAttribute("aria-label","Меню подсказок")'));assert.ok(out.includes('setAttribute("data-value","Typeahead menu")'));assert.ok(out.includes('`Назад к ${back.fileName}`'));assert.ok(out.includes('const payload={message:"No tracker items yet.",prompt:"Enter some rich text..."}'));
+});
